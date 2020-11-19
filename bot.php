@@ -633,7 +633,7 @@ if(!is_null($events)){
                                         new CarouselColumnTemplateBuilder(
                                             'EP.07',
                                             'DAX ตอนที่ 1',
-                                            'https://bcplineoa.bangchak.co.th/powerbi-club/uploadimage/c7.png',
+                                            'https://bcplineoa.bangchak.co.th/powerbi-club/uploadimage/c5.png',
                                             $actionBuilder7
                                         ),                                                                                 
                                     )
