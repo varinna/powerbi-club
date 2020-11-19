@@ -597,6 +597,20 @@ if(!is_null($events)){
                                     'https://liff.line.me/1654945197-be2v6lWG'
                                 ),     
                             );
+                            $actionBuilder6 = array(
+                                new UriTemplateActionBuilder(
+                                    'หลักการของ DAX',// ข้อความแสดงในปุ่ม
+                                    'https://liff.line.me/1654945197-be2v6lWG'
+                                ),
+                                new UriTemplateActionBuilder(
+                                    'Calculated Column', // ข้อความแสดงในปุ่ม
+                                    'https://liff.line.me/1654945197-be2v6lWG'
+                                ),
+                                new UriTemplateActionBuilder(
+                                    'Calculate Measures', // ข้อความแสดงในปุ่ม
+                                    'https://liff.line.me/1654945197-be2v6lWG'
+                                ),     
+                            );
                             $replyData = new TemplateMessageBuilder('Carousel',
                                 new CarouselTemplateBuilder(
                                     array(
@@ -634,7 +648,7 @@ if(!is_null($events)){
                                             'EP.07',
                                             'DAX ตอนที่ 1',
                                             'https://bcplineoa.bangchak.co.th/powerbi-club/uploadimage/c5.png',
-                                            $actionBuilder7
+                                            $actionBuilder6
                                         ),                                                                                 
                                     )
                                 )
